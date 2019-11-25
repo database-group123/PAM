@@ -1,1 +1,1 @@
-# PAM
+# Super aplikacja mobilna
