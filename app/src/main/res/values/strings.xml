@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">My Application Menu</string>
+    <string name="exit_menu">Exit</string>
+    <string name="authors_menu">Autorzy</string>
+    <string name="option1_menu">Opcja1</string>
+    <string name="option2_menu">Opcja2</string>
+</resources>
