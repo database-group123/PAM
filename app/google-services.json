@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "253813845103",
+    "firebase_url": "https://aplikacje-mobilne-iwb.firebaseio.com",
+    "project_id": "aplikacje-mobilne-iwb",
+    "storage_bucket": "aplikacje-mobilne-iwb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:253813845103:android:251ee133a46d3de0d5b19a",
+        "android_client_info": {
+          "package_name": "com.example.myapplicationmenu"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "253813845103-4fb8jf7sqreh38l1r1rp01mksldugi1s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyChP4ehCZNmgMitD-2ej_RBemGrfrmo9rg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "253813845103-4fb8jf7sqreh38l1r1rp01mksldugi1s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
