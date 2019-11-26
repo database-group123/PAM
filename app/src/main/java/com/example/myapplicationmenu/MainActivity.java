@@ -54,6 +54,21 @@ public class MainActivity extends AppCompatActivity {
                         System.out.println(e);
                     }
                 });
+        
+        // Modyfikowanie konkretnego pola dokumentu. W metodzie dokument podajemy id dokumentu, który chcemy zmienić, a w update, parę klucz wartość do zmiany
+        db.collection("kursy).document("7Yxz9jRWfXhRSdLLtPnx").update("nazwa", "PAM")
+        .addOnSuccessListener(new OnSuccessListener<Void>() {
+            @Override
+            public void onSuccess(Void aVoid) {
+                System.out.println("Zmodyfikowano dokument 7Yxz9jRWfXhRSdLLtPnx");
+            }
+        })
+        .addOnFailureListener(new OnFailureListener() {
+            @Override
+            public void onFailure(@NonNull Exception e) {
+                System.out.println(e);
+            }
+        });
 
         // Usuniecie dokumentu z kolekcji. Jaki parametr w metodzie document podajemy unikalny identyfikator dokumentu.
         db.collection("kursy").document("7Yxz9jRWfXhRSdLLtPnx")
